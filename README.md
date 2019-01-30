@@ -57,4 +57,4 @@ AliPay
 
 Wechat Pay
 
-![image](./data/imgs/wechatpay.png)
+![image](./data/imgs/wechatpay.png)# blog
