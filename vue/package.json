@@ -1,13 +1,15 @@
 {
   "name": "blog",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@vue/babel-preset-app": "^3.3.0",
+    "ajv": "^6.7.0",
     "axios": "^0.18.0",
     "iview": "^3.2.1",
     "js-base64": "^2.5.0",
@@ -20,7 +22,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
     "@vue/cli-plugin-eslint": "^3.2.0",
-    "@vue/cli-service": "^3.2.0",
+    "@vue/cli-service": "^3.3.1",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",

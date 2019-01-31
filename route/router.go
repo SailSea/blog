@@ -1,8 +1,8 @@
 package route
 
 import (
-	"blog/control"
-	"blog/model"
+	"github.com/zxysilent/blog/control"
+	"github.com/zxysilent/blog/model"
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"blog/route"
+	"github.com/zxysilent/blog/route"
 )
 
 func main() {

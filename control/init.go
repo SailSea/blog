@@ -1,7 +1,7 @@
 package control
 
 import (
-	"blog/model"
+	"github.com/zxysilent/blog/model"
 	"io"
 	"net/http"
 	"os"

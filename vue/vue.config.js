@@ -5,7 +5,7 @@ const resolve = dir => {
 };
 module.exports = {
   // 部署应用时的根路径(默认'/'),也可用相对路径
-  baseUrl: process.env.NODE_ENV === "development" ? "/" : "http://127.0.0.1:88/res/dist/", //修改为你的URL+/dist/",
+  publicPath: process.env.NODE_ENV === "development" ? "/" : "http://47.98.218.146:88/res/dist/", //修改为你的URL+/dist/",
   // 运行时生成的生产环境构建文件的目录(默认''dist''，构建之前会被清除)
   outputDir: "../res/dist",
   // 放置生成的静态资源(s、css、img、fonts)的(相对于 outputDir 的)目录(默认'')
@@ -35,8 +35,8 @@ module.exports = {
   // https://cli.vuejs.org/zh/config/#devserver
   devServer: {
     // 环境配置
-    host: "127.0.0.1",
-    port: 8080,
+    host: "172.16.55.235",
+    port: 8088,
     https: false,
     // 没有页面刷新的情况下启用热模块替换
     hotOnly: false,

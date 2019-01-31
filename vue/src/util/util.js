@@ -7,15 +7,15 @@ util.title = function(title) {
 //dev prod
 util.cfgSvrURL =
   process.env.NODE_ENV === "development"
-    ? "http://127.0.0.1:88"
-    : "http://127.0.0.1:88";
+    ? "http://47.98.218.146:88"
+    : "http://47.98.218.146:88";
 
 //文件上传地址
 //dev prod
 util.cfgUpload =
   process.env.NODE_ENV === "development"
-    ? "http://127.0.0.1:88/upload"
-    : "http://127.0.0.1:88/upload";
+    ? "http://47.98.218.146:88/upload"
+    : "http://47.98.218.146:88/upload";
 
 // 登陆失效默认页面
 util.defURL = "/core/";
